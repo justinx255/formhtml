@@ -1,0 +1,56 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: lightpink;
+}
+h1 {
+	text-align: center;
+}
+.container {
+	background-color: white;
+	width: 50%;
+	margin: 0 25%;
+	padding: 2%;
+	border-radius: 25px;
+}
+.each {
+	width: 80%;
+	margin: 0 18%;
+}
+
+input {
+	width: 80%;
+	padding: 10px;
+	align-items: center;
+	justify-content: center;
+	font-weight: 400;
+	font-weight: bolder;
+}
+button {
+	padding: 10px;
+	margin: 3% 15%;
+	width: 50%;
+	background-color: lightpink;
+	color: white;
+	font-size: 1.25rem;
+	cursor: pointer;
+}
+button:hover {
+	background-color: palevioletred;
+}
+@media screen and (max-width: 786px) {
+	.container {
+		width: 80%;
+		margin: 0 10%;
+	}
+	input {
+		width: 90%;
+	}
+}
